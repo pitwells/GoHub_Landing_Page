@@ -2,18 +2,21 @@
     font-family: 'Brown',sans-serif;
     src: url(/fonts/Brown-Light.ttf);
     font-weight: 200;
+    /* font-style:; */
 }
 
 @font-face {
     font-family: 'Brown';
     src: url(/fonts/Brown-Bold.ttf);
-    font-weight: 900;
+    font-style: normal;
+    /* font-weight: 900; */
 }
 
 @font-face {
     font-family: "Brown";
     src: url(/fonts/Brown-Regular.ttf);
     font-weight: 400;
+    /* font-style: normal; */
 }
 
 /* @font-face {
