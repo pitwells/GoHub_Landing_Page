@@ -1,23 +1,4 @@
 @font-face {
     font-family: 'Brown',sans-serif;
     src: url(/fonts/Brown-Light.ttf);
-    font-weight: 200;
 }
-
-@font-face {
-    font-family: 'Brown';
-    src: url(/fonts/Brown-Bold.ttf);
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Brown";
-    src: url(/fonts/Brown-Regular.ttf);
-    font-weight: 400;
-}
-
-/* @font-face {
-    font-family: "Brown";
-    src: url(/fonts/Brown-Thin.ttf);
-    font-weight: 100;
-} */

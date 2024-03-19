@@ -25,16 +25,10 @@
 }
 
 .header {
-    /* background-image: url(/img/header-bg.png); */
-    /* background-repeat: no-repeat; */
-    /* background-position: 4px -150px; */
-    /* background-color: aqua; */
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-bottom: 138px;
-    /* padding-bottom: 490px; */
-    /* position: relative; */
 }
 
 .header__nav {    
@@ -101,7 +95,7 @@
 
 .header__text-post p {
     font-size: 22px;
-    font-weight: lighter;
+    font-weight: 300;
     width: 460px;
     line-height: 32px;
     color: #525f7f;
@@ -620,10 +614,3 @@ footer ul:nth-child(4) {
     margin-right: 0px;
     /* background-color: red; */
 }
-
-
-
-footer .copyright .terms {
-    /* background-color: burlywood; */
-}
-
