@@ -25,10 +25,21 @@
 }
 
 .header {
+    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-bottom: 138px;
+}
+
+.header__bg {
+    background-image: url(/img/header-bg.png);
+    position: absolute;
+    width: 100%;
+    height: 1377px;
+    top: -150px;
+    left: 4px;
+    z-index: -1;
 }
 
 .header__nav {    
@@ -100,8 +111,8 @@
     line-height: 32px;
     color: #525f7f;
     margin-bottom: 40px;
-    /* transform: scale(0.97, 1); */
-    margin-left: -2px;
+    transform: scale(1.04, 1);
+    margin-left: 9px;
 }
 
 .section__btn {
@@ -149,7 +160,7 @@
     /* position: relative; */
     /* top: -354px; */
     flex-wrap: wrap;
-    margin-bottom: 188px;
+    margin-bottom: 190px;
 }
 
 .about-us__title-text {
@@ -158,25 +169,24 @@
     margin-top: 207px;
     margin-right: 142px;
     /* background-color: red; */
-    margin-bottom: 75px;
+    margin-bottom: 77px;
 }
 
 .about-us__title-text h3 {
     font-family: 'Brown';
     font-size: 48px;
-    font-weight: 100;
-    font-style: normal;
+    font-weight: 300;
     margin-bottom: 32px;
     color: #32325d;
-    margin-left: -16px;
-    transform: scale(0.95, 1);    
+    margin-left: -2px;
+    /* transform: scale(1.04, 1);     */
     line-height: 62px;
 }
 
 .about-us__title-text p {
     font-family: 'Brown';
     font-size: 23px;
-    font-weight: 200;
+    font-weight: 300;
     color: #525f7f;
     width: 560px;
     transform: scale(0.95, 1);
@@ -200,17 +210,17 @@
 .about-us__feature h4 {
     font-family: 'Brown', sans-serif;
     font-size: 30px;
-    font-weight: 100;
+    font-weight: 300;
     margin-bottom: 15px;
     color: #212240;
-    margin-left: -17px;
-    transform: scale(0.93, 1);
+    margin-left: -2px;
+    /* transform: scale(0.93, 1); */
 }
 
 .about-us__feature p {
     font-family: 'Brown', sans-serif;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
     color: #525f7f;
     width: 480px;
     margin-left: -14px;
@@ -236,31 +246,45 @@
     justify-content: center;
     margin: auto;
     font-family: 'Brown', sans-serif;
-    margin-bottom: 267px;
+    margin-bottom: 268px;
+}
+
+.services__bg {
+    background-image: url(/img/services-bg.png);
+    background-size: 2615px;
+    position: absolute;
+    width: 117%;
+    height: 1097px;
+    top: 2524px;
+    left: -320px;
+    z-index: -1;
+    overflow: hidden;
 }
 
 .services h3 {
+    color: #32325d;
     margin: auto;
     align-self: center;
     text-align: center;
     font-size: 48px;
-    font-weight: 100;
-    margin-bottom: 29px;
-    margin-left: 109px;
-    transform: scale(0.95, 1);
+    font-weight: 300;
+    margin-bottom: 31px;
+    margin-left: 166px;
 }
 
 .services p {
     margin: auto;
     align-self: center;
     text-align: center;
-    font-weight: 100;
-    font-size: 24px;
-    width: 955px;
+    font-weight: 300;
+    font-size: 22px;
+    width: 840px;
     margin-bottom: 30px;
-    transform: scale(0.91, 1);
-    margin-left: 115px;
+    transform: scale(1.04, 1);
+    margin-left: 205px;
     margin-bottom: 144px;
+    color: #525f7f;
+    line-height: 32px;
 }
 
 .services ul {
@@ -308,7 +332,7 @@
     margin-top: 2px;
     line-height: 24px;
     color: #525f7f;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .we-do {
@@ -322,19 +346,20 @@
     font-family: 'Brown';
     color: #32325d;
     font-size: 48px;
-    font-weight: 200; 
-    width: 500px;
-    line-height: 64px;
-    margin-bottom: 28px;
+    font-weight: 300; 
+    width: 480px;
+    line-height: 63px;
+    margin-bottom: 30px;
+    margin-left: -1px;
 }
 
 .we-do__text {
     font-family: 'Brown';
     font-size: 24px;
-    font-weight: 200;
-    width: 550px;
+    font-weight: 300;
+    width: 530px;
     color: #525f7f;
-    margin-bottom: 44px;
+    margin-bottom: 45px;
 }
 
 .we-do__subsection {
@@ -349,7 +374,7 @@
     font-family: 'Brown';
     color: #32325d;
     font-size: 30px;
-    font-weight: 200; 
+    font-weight: 300; 
     margin-bottom: 13px;
 }
 
@@ -357,18 +382,30 @@
     font-family: 'Brown';
     color: #525f7f;
     font-size: 18px;
-    font-weight: 200;
-    width: 300px; 
+    font-weight: 300;
+    width: 270px; 
 }
 
 .we-do__subsection div:first-child {
     width: 300px;
-    margin-right: 42px;
+    margin-right: 73px;
 }
 
 .we-do .section__btn {
     margin-bottom: 248px;
 }
+
+.we-do__safety-bg {
+    background-image: url(/img/our-work-01.png);
+    /* background-color: aqua; */
+    position: absolute;
+    width: 670px;
+    height: 483px;
+    top: 3805px;
+    left: 906px;
+    z-index: -1;
+}
+
 
 .we-do__move {
     display: flex;
